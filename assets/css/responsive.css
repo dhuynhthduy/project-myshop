@@ -1,0 +1,25 @@
+@media only screen and (min-width: 992px){
+    #header .dropdown-list{
+        position: relative;
+    }
+    #header .dropdown-list .sub-menu{
+        position: absolute;
+        top: 0px;
+        left: 200px;
+    }
+    #headeer .dropdown-list .menu,
+    #headeer .dropdown-list .sub-menu{
+        display: none;
+    }
+    #header .dropdown-list:hover .menu{
+        display: block;
+    }
+    #header .dropdown-list-sub:hover .sub-menu{
+        display: block;
+    }
+}
+@media only screen and (max-width: 991px){
+    #header .dropdown-list-sub:hover .sub-menu{
+        display: block;
+    }  
+}
